@@ -1,0 +1,43 @@
+html {
+    -webkit-text-size-adjust: none;
+    background-image: url(../../assets/bg_watch.png);
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 120%;
+    /*background-color: rgb(36, 33, 53);*/
+}
+
+body {
+    text-align: center;
+    font-size: 25px;
+    width: 900px;
+    height: 760px;
+    margin: 0 auto;
+    padding: 0 40px;
+    overflow-y: scroll;
+}
+
+#root {
+    height: 100%;
+    width: 100%;
+}
+
+button {
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color:rgb(204, 204, 204);
+}
+
+@media (max-width: 600px) {
+    button, body {
+        font-size: 16px;
+    }
+}

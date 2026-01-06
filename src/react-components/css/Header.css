@@ -1,0 +1,24 @@
+.headerContainer {
+    display: flex;
+    margin: 1em 0;
+}
+
+.headerTitle {
+    margin: 0;
+    width: 100%;
+    font-size: 40px;
+    color: azure;
+}
+
+.githubIcon {
+    background-color: white;
+    border-radius: 15px;
+    width: 64px;
+    height: 64px;
+}
+
+@media (max-width: 600px) {
+    .header {
+        font-size: 24px;
+    }
+}

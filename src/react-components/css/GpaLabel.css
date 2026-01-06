@@ -1,0 +1,10 @@
+.GpaBlock {
+    width: 130px;
+    margin-left: 1%;
+    padding: 1%;
+    background-color: rgb(103, 243, 145);
+}
+
+.GpaLabel {
+    text-decoration: underline;
+}
