@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.chongchanhow.com/Academic-Results",
+  "homepage": "https://github.chongchanhow.com/gpa-results",
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
