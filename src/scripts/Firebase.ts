@@ -1,6 +1,7 @@
 import { initializeApp } from "firebase/app";
 import { getDownloadURL, getStorage, ref } from "firebase/storage";
 import { initializeAppCheck, ReCaptchaV3Provider } from "firebase/app-check";
+import { DATA_FILE } from "../Constants";
 
 declare global {
   var FIREBASE_APPCHECK_DEBUG_TOKEN: boolean | string | undefined;
@@ -19,7 +20,7 @@ async function getURL(): Promise<string> {
 
   try {
     const storage = getStorage(app);
-    const resultsRef = ref(storage, "results_2526s1.csv");
+    const resultsRef = ref(storage, DATA_FILE);
     const url = await getDownloadURL(resultsRef);
     return url;
 

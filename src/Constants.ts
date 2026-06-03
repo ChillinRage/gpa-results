@@ -1,5 +1,7 @@
 import { Grade, ModuleFilter } from "./Types.ts";
 
+export const DATA_FILE: string = "results.csv";
+
 export const GRADE_LIST: Grade[] = ['A+', 'A', 'A-', 'B+', 'B', 'B-', 'C+', 'C', 'D+', 'D', 'F', 'S', 'U', 'CS', 'CU'];
 
 export const EXEMPTED_GRADES: Grade[] = ['S', 'U', 'CS', 'CU'];
